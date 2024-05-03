@@ -1,0 +1,4 @@
+-injars F:/jsKim/project/LG/obfuscate-core/test-0.0.1-SNAPSHOT-plain.jar
+-outjars F:/jsKim/project/LG/obfuscate-core/obf_test.jar
+-libraryjars F:\jsKim\jdk\jre\lib\rt.jar
+-optimizationpasses 5

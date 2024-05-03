@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'kr.co.futur'
-version = '0.0.1-SNAPSHOT'
+version = '0.0.2-Beta'
 
 java {
     sourceCompatibility = '17'
@@ -27,6 +27,7 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.ow2.asm:asm:9.7'
 }
 
 tasks.named('test') {
